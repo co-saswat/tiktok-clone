@@ -60,7 +60,7 @@ const Post = (props) => {
                   {/* Icon */}
                   <MaterialCommunityIcon name="music" size={25} color="white" />
                   {/* Text */}
-                  <Text style={styles.musicName}>{post.song}</Text>
+                  <Text style={styles.musicName}>{post.song.name}</Text>
                 </View>
               </View>
               <Image style={styles.musicImage} source={require('../../assets/images/account.png')} />
