@@ -3,7 +3,7 @@ import { StyleSheet, Dimensions } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     width: '100%',
-    height: Dimensions.get('window').height ,
+    height: Dimensions.get('window').height - 45,
     // flex: 1,
     // backgroundColor: 'black',
   },
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: 'white'
   },
-  musicImage:{
+  musicImage: {
     width: 50,
     height: 50,
     marginBottom: 10,
